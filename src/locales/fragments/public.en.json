@@ -22,23 +22,23 @@
         "demoLabel": "Preview of the writing page",
         "brings": "Brought into this chapter",
         "world": "World",
-        "worldValue": "The Nine Provinces meridian system",
+        "worldValue": "Ward magic of the Seven Kingdoms",
         "character": "Character",
-        "shenRole": "Shen Yan · protagonist",
-        "wen": "Wen Zhaoxue",
+        "shenRole": "Rowan Hale · protagonist",
+        "wen": "Elara Vance",
         "setting": "Setting",
-        "settingValue": "A meridian can be drawn only once a day",
+        "settingValue": "A ward can be cast only once a day",
         "foreshadow": "Foreshadow",
-        "foreshadowValue": "The inscription inside the scabbard",
+        "foreshadowValue": "The runes inside the scabbard",
         "summary": "Summary",
         "summaryValue": "Recap of the last 3 chapters",
         "stepOutline": "✓ Chapter outline",
         "stepGenerate": "Generate prose",
         "stepCheck": "Check",
         "stepConfirm": "Confirm",
-        "thinking": "Reasoning stays separate · Chapter goal: Shen Yan hides his strength in the sect trial…",
-        "sample": "“下一位，外门沈砚。”裴执事的声音不高，整座擂台却静了下来。沈砚握紧剑鞘走上台，掌心里那道旧伤又开始发烫。",
-        "chapter": "Chapter 58 · The trial",
+        "thinking": "Reasoning stays separate · Chapter goal: Rowan hides how strong he really is at the Proving…",
+        "sample": "\"Next up — Rowan Hale, stable hand.\" Master Pell didn't raise his voice, but the whole arena went quiet. Rowan tightened his grip on the scabbard and climbed the steps. The old scar on his palm had started to burn again.",
+        "chapter": "Chapter 58 · The Proving",
         "words": "{count} words",
         "continue": "Continue",
         "stop": "Stop"
@@ -58,18 +58,18 @@
         },
         "bar": "Chat before you create the book",
         "tag": "Not part of any book",
-        "me": "I want a talentless-underdog story, but not the usual cliché. Could his special advantage be something else?",
-        "ai": "Let the “lack of talent” itself be the cost: he can see the cracks in other people’s meridians, but every look drops his own cultivation by one stage…",
+        "me": "I want an underdog story, but not the usual chosen-one thing. What if his one advantage came with a price?",
+        "ai": "Make the gift itself the cost: he can see the cracks in anyone's wards, but every time he looks, his own magic grows weaker…",
         "fields": {
           "title": "Title",
-          "titleValue": "Split Meridians",
+          "titleValue": "Fault Lines",
           "hero": "Protagonist",
-          "heroValue": "Shen Yan, an outer-sect menial who can see meridian cracks",
+          "heroValue": "Rowan Hale, a stable hand who can see the cracks in any ward",
           "conflict": "Core conflict",
-          "conflictValue": "The more he sees, the weaker he gets, and the closer he comes to the sect’s secret"
+          "conflictValue": "The more he sees, the weaker he gets, and the closer he comes to the Academy's buried secret"
         },
         "apply": "Create a book from this plan",
-        "applied": "✓ Created Split Meridians",
+        "applied": "✓ Created Fault Lines",
         "noteIdle": "A click creates the book. Chatting does not write it.",
         "noteDone": "Demo: the real page opens the new book."
       },
@@ -82,7 +82,7 @@
           "peopleTitle": "Character cards",
           "peopleBody": "Role, personality, catchphrase, arc, and whether they are alive and present.",
           "settingTitle": "Setting cards",
-          "settingBody": "Places, factions, items, rules, realms… Turn on “Always include” for the rules that matter.",
+          "settingBody": "Places, factions, items, rules, magic systems… Turn on “Always include” for the rules that matter.",
           "carryTitle": "Only what this chapter needs",
           "carryBody": "Hundreds of chapters are not pasted in. Only what this chapter needs is included."
         },
@@ -91,30 +91,30 @@
         "kindCharacter": "Character",
         "kindRule": "Rule",
         "kindFaction": "Faction",
-        "shenName": "Shen Yan",
-        "shenDesc": "Protagonist · a quiet outer-sect menial",
+        "shenName": "Rowan Hale",
+        "shenDesc": "Protagonist · a quiet stable hand at the Academy",
         "alive": "Alive",
         "present": "Present",
-        "luName": "Lu Qinghe",
-        "luDesc": "Shen Yan’s senior",
+        "luName": "Tobias Reed",
+        "luDesc": "Rowan's mentor",
         "dead": "Dead",
         "luNote": "Killed in chapter 41",
-        "veinTitle": "A meridian can be drawn only once a day",
-        "veinDesc": "Forcing a second draw damages the foundation.",
+        "veinTitle": "A ward can be cast only once a day",
+        "veinDesc": "Casting a second one burns out the caster's magic.",
         "pin": "Always include",
-        "sectTitle": "Qinglan Sect",
-        "sectDesc": "Nine peaks stand side by side. Outer disciples may not enter the inner peaks.",
+        "sectTitle": "Greyhaven Academy",
+        "sectDesc": "Seven towers ring the courtyard. First-years may not climb the high towers.",
         "inject": "Included when generating chapter 58:",
-        "injShen": "Shen Yan (protagonist)",
-        "injWen": "Wen Zhaoxue (named in the chapter outline)",
-        "injVein": "A meridian can be drawn only once a day",
-        "injSect": "Qinglan Sect",
+        "injShen": "Rowan Hale (protagonist)",
+        "injWen": "Elara Vance (named in the chapter outline)",
+        "injVein": "A ward can be cast only once a day",
+        "injSect": "Greyhaven Academy",
         "injSummary": "Summaries of the last 3 chapters"
       },
       "cast": {
-        "shen": "Shen Yan",
-        "wen": "Wen Zhaoxue",
-        "lu": "Lu Qinghe"
+        "shen": "Rowan Hale",
+        "wen": "Elara Vance",
+        "lu": "Tobias Reed"
       },
       "s3": {
         "kicker": "Outline and foreshadows",
@@ -137,10 +137,10 @@
         "meta": "Planted in chapter {plant} · payoff planned for chapter {due}",
         "foot": "Early reminder: 3 chapters · A purple bar means this chapter’s draft includes it",
         "items": {
-          "scabbard": "The inscription inside the scabbard",
-          "pendant": "The half jade pendant in Wen Zhaoxue’s sleeve",
-          "pavilion": "The ninth floor of the scripture pavilion has no door",
-          "lastWords": "Lu Qinghe’s last words"
+          "scabbard": "The runes inside the scabbard",
+          "pendant": "The broken silver locket in Elara's sleeve",
+          "pavilion": "The library's ninth floor has no door",
+          "lastWords": "Tobias's last words"
         },
         "badges": {
           "open": "Open",
@@ -166,37 +166,37 @@
         "hint": "Click an issue on the right",
         "prose": {
           "p1": {
-            "before": "The crowd roared under the arena. Shen Yan held his presence down and ",
-            "mark": "drew on his meridian for the second time today",
+            "before": "The crowd roared below the arena. Rowan kept his head down and ",
+            "mark": "cast his second ward of the day",
             "after": ". His fingertips went numb."
           },
           "p2": {
-            "before": "At the edge of the stage, Wen Zhaoxue said quietly, “",
+            "before": "From the edge of the stage, Elara said quietly, “",
             "mark": "Don’t push it",
             "after": ".”"
           },
           "p3": {
             "before": "Before he could answer, ",
-            "mark": "Lu Qinghe",
-            "after": " pushed through the crowd and clapped his shoulder. “Junior brother, I’ll back you up.”"
+            "mark": "Tobias Reed",
+            "after": " pushed through the crowd and clapped him on the shoulder. “I've got your back, kid.”"
           },
-          "p4": "Shen Yan glanced down at the scabbard. The line inside flashed again."
+          "p4": "Rowan glanced down at the scabbard. The runes inside flickered again."
         },
         "issues": {
           "must": {
             "level": "Must fix",
             "title": "A dead character appears",
-            "detail": "Lu Qinghe was killed in chapter 41. If this is a memory, mark it as a false positive."
+            "detail": "Tobias Reed was killed in chapter 41. If this is a flashback, mark it as a false positive."
           },
           "should": {
             "level": "Should fix",
             "title": "Conflicts with a setting",
-            "detail": "“A meridian can be drawn only once a day.” This is the second time today."
+            "detail": "“A ward can be cast only once a day.” This is his second one today."
           },
           "hint": {
             "level": "Hint",
             "title": "Catchphrase repeated",
-            "detail": "Wen Zhaoxue’s “Don’t push it” already appears 4 times in this chapter."
+            "detail": "Elara's “Don’t push it” already appears 4 times in this chapter."
           }
         }
       },
@@ -218,26 +218,26 @@
         "changes": {
           "state": {
             "kind": "Character state",
-            "text": "Shen Yan: cultivation drops back to Qi Refining, third layer"
+            "text": "Rowan: magic drops back to Apprentice, third circle"
           },
           "person": {
             "kind": "New character",
-            "text": "Steward Pei · judge of the trial"
+            "text": "Master Pell · judge of the Proving"
           },
           "setting": {
             "kind": "New setting",
-            "text": "Sect trial: the loser may not enter the scripture pavilion for three months"
+            "text": "The Proving: whoever loses is barred from the library for three months"
           },
           "hook": {
             "kind": "New foreshadow",
-            "text": "Steward Pei recognizes that sword"
+            "text": "Master Pell recognizes that sword"
           }
         },
         "willWrite": "{count} items will be written · a chapter summary is generated too",
         "confirm": "Confirm this chapter",
         "ver1": "Chapter 57 · confirmed · 2 cards changed",
         "undo": "Undo this confirmation",
-        "ver2": "Character card · Shen Yan · 1 AI change",
+        "ver2": "Character card · Rowan Hale · 1 AI change",
         "undone": "Undone"
       },
       "compare": {
@@ -271,11 +271,26 @@
         "title": "Write a chapter, and the memory comes with it",
         "sub": "What each step produces is still there for the next chapter.",
         "flow": {
-          "book": { "title": "Create the book", "text": "Talk through a plan, or just type a title." },
-          "beats": { "title": "Write the chapter outline", "text": "Goal, conflict, payoff, hook, and who is on stage." },
-          "draft": { "title": "Generate prose", "text": "It streams. A dropped connection saves a draft." },
-          "check": { "title": "Consistency check", "text": "Conflicts with earlier text are marked by severity." },
-          "confirm": { "title": "Confirm", "text": "Write it back into memory, generate a summary, and undo if you need to." }
+          "book": {
+            "title": "Create the book",
+            "text": "Talk through a plan, or just type a title."
+          },
+          "beats": {
+            "title": "Write the chapter outline",
+            "text": "Goal, conflict, payoff, hook, and who is on stage."
+          },
+          "draft": {
+            "title": "Generate prose",
+            "text": "It streams. A dropped connection saves a draft."
+          },
+          "check": {
+            "title": "Consistency check",
+            "text": "Conflicts with earlier text are marked by severity."
+          },
+          "confirm": {
+            "title": "Confirm",
+            "text": "Write it back into memory, generate a summary, and undo if you need to."
+          }
         },
         "extras": {
           "chat": "Chat with the AI beside the outline and the cards. Nothing is written until you apply.",
@@ -404,7 +419,7 @@
         "cast": "Characters on stage: pick from existing character cards, or type a new name. If there is no card, the page offers to create one, or to switch to an existing character with a similar name.",
         "length": "Length for this chapter: leave it blank to use the book default.",
         "linked": "Linked foreshadows: these are included when you generate. Foreshadows nearing their payoff are included automatically too.",
-        "ai": "While a section is still the empty template, you can click “Fill with AI” or “Chat with AI”. The model first explains in plain Chinese. A change is written only after you click “Apply”, and it leaves a version you can undo. Ignore means nothing changes.",
+        "ai": "While a section is still the empty template, you can click “Fill with AI” or “Chat with AI”. The model first explains in plain language. A change is written only after you click “Apply”, and it leaves a version you can undo. Ignore means nothing changes.",
         "generate": "When the chapter outline is ready, click “Generate this chapter” to open the writing page. If the chapter already has prose, the button says “Writing page”.",
         "rewrite": "Editing the outline or the chapter outline does not rewrite chapters that are already drafted. To change the prose, open the writing page and click “Regenerate”."
       },
@@ -422,7 +437,7 @@
       },
       "check": {
         "title": "6. Run a consistency check",
-        "lead": "When the prose is ready, click “Consistency check” at the top right. It looks for real contradictions against memory. It does not judge the writing. It checks whether speech and actions match the character, whether the draft conflicts with existing settings (timeline, realm, place, rules), whether someone who is dead or already offstage appears again, and whether a catchphrase repeats too often. If a dead or offstage person appears in the prose, the rule reports it even when the model does not. A flashback can be marked as a false positive.",
+        "lead": "When the prose is ready, click “Consistency check” at the top right. It looks for real contradictions against memory. It does not judge the writing. It checks whether speech and actions match the character, whether the draft conflicts with existing settings (timeline, power level, place, rules), whether someone who is dead or already offstage appears again, and whether a catchphrase repeats too often. If a dead or offstage person appears in the prose, the rule reports it even when the model does not. A flashback can be marked as a false positive.",
         "levels": "Issues come in three levels: Must fix, Should fix, and Hint. A marker sits after the matching paragraph. “Show in the text” on the right scrolls to that paragraph.",
         "card": "For a character issue you can “View character card”.",
         "falsePositive": "If the judgment is wrong, “Mark as a false positive”. Reasons: written this way on purpose, the check misread the text, the memory is out of date, or other. You can add one line of detail. After you check “Don’t flag this kind of issue again in this chapter”, that chapter will not report the same case.",
@@ -434,7 +449,7 @@
         "lead": "After the check passes, “Confirm memory changes” at the bottom right can be clicked. A line under the button explains a gray button: there is no prose yet, it has not been checked, the prose changed and needs another check, or a must-fix issue is still open.",
         "extract": "On the confirm page, the app extracts changes from this chapter’s prose. Wait while it extracts. If it fails, retry, or “Skip the model and only record who appears”.",
         "reviewIntro": "On the left, “Needs your decision” lists the important changes. Handle them one by one:",
-        "alive": "Whether a character is alive, present, and their realm",
+        "alive": "Whether a character is alive, present, and their power level",
         "fresh": "New characters and new settings",
         "hooks": "New foreshadows and foreshadows paid off",
         "reviewTail": "Each item can be accepted, edited, rejected, or left for later. Shortcuts: A accept, E edit, R reject. For a new foreshadow you can edit the text and enter the chapter planned for the payoff.",
@@ -447,8 +462,8 @@
       "memory": {
         "title": "8. Memory",
         "tabs": "Click “Memory” at the top. Three tabs on the left: Characters, Settings, and Summaries. You can search.",
-        "cards": "A character card stores role, appearance, personality, catchphrase, arc, and relationships. Current state includes alive, present, realm, location, injuries, items held, and last seen. Alive, present, and realm are locked: those changes must be accepted by hand when you confirm the chapter.",
-        "settings": "Setting cards are categorized as place, faction, item, rule, timeline, realm, or other. With “Always include” checked, every later chapter generation carries this card. Rules are a good fit for that.",
+        "cards": "A character card stores role, appearance, personality, catchphrase, arc, and relationships. Current state includes alive, present, power level, location, injuries, items held, and last seen. Alive, present, and power level are locked: those changes must be accepted by hand when you confirm the chapter.",
+        "settings": "Setting cards are categorized as place, faction, item, rule, timeline, power system, or other. With “Always include” checked, every later chapter generation carries this card. Rules are a good fit for that.",
         "create": "Click “＋ New character card” or “＋ New setting card”. An empty card can use “Fill with AI” or “Chat with AI”. It is written only after you apply.",
         "summaries": "Summaries appear after a chapter is confirmed. When a new chapter is generated, summaries of the latest few chapters are included.",
         "edits": "Editing a card directly here does not leave a version. State changes that happen in the prose should go through the confirmation in step 7. A card the AI changed can be undone in version history."

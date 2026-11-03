@@ -80,7 +80,9 @@
       "close": "关闭",
       "save": "保存",
       "deletePrompt": "删除测试用例「{title}」？",
-      "cancel": "取消"
+      "cancel": "取消",
+      "seedAdded": "已添加 {count} 个示例",
+      "seedExists": "示例已存在"
     },
     "versions": {
       "title": "版本历史",

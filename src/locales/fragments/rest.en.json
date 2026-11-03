@@ -80,7 +80,9 @@
       "close": "Close",
       "save": "Save",
       "deletePrompt": "Delete the test case “{title}”?",
-      "cancel": "Cancel"
+      "cancel": "Cancel",
+      "seedAdded": "Added {count} sample(s)",
+      "seedExists": "The samples are already there"
     },
     "versions": {
       "title": "Version history",
@@ -256,7 +258,7 @@
       "autoHint": "Ordinary state changes. Undo anytime.",
       "noAuto": "No ordinary state changes",
       "restore": "Restore",
-      "keyNoteLead": "Death, leaving the scene, and realm changes",
+      "keyNoteLead": "Death, leaving the scene, and power level changes",
       "keyNoteRest": " are not accepted automatically. Death and leaving are asked about again before you accept them.",
       "foot": "Confirming updates {count} cards, writes the summary for chapter {number}, and saves a version you can roll back.",
       "laterConfirm": "Decide later",

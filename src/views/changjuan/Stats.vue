@@ -103,7 +103,7 @@ import { useRouter } from 'vue-router'
 import { ElMessage, ElMessageBox } from 'element-plus'
 import { cjApi, numberText, percent, promptModelSetup, taskLabel, timeText, toastError } from './api.js'
 
-const { t } = useI18n()
+const { t, locale } = useI18n()
 const { bookId } = inject('cj')
 const router = useRouter()
 const TASK_ORDER = ['generate', 'check', 'extract', 'summary', 'assist']
@@ -185,8 +185,8 @@ const removeCase = async () => {
 
 const seed = async () => {
   try {
-    const json = await cjApi('/testcases/seed', { method: 'POST' })
-    ElMessage.success(json.message)
+    const json = await cjApi('/testcases/seed', { method: 'POST', body: { locale: locale.value } })
+    ElMessage.success(json.added ? t('rest.stats.seedAdded', { count: json.added }) : t('rest.stats.seedExists'))
     if (managerVisible.value) {
       await loadCases()
       editCase(cases.value[0] || null)

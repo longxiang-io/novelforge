@@ -45,7 +45,7 @@
     "arc": "Arc",
     "alive": "Alive",
     "present": "Present",
-    "realm": "Realm",
+    "realm": "Power level",
     "location": "Location",
     "injury": "Injury",
     "items": "Items",
@@ -71,7 +71,7 @@
     "item": "Item",
     "rule": "Rule",
     "timeline": "Timeline",
-    "realm": "Realm",
+    "realm": "Power system",
     "other": "Other"
   }
 }
