@@ -1,0 +1,33 @@
+{
+  "name": "novelforge",
+  "private": true,
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "Community edition of a long-form novel writing workbench. Bring your own model key.",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "wrangler dev --local",
+    "build": "vite build",
+    "test": "node --test \"test/*.test.js\"",
+    "db:migrate:local": "wrangler d1 migrations apply DB --local"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.45.2",
+    "element-plus": "^2.14.2",
+    "hono": "^4.10.0",
+    "tdesign-icons-vue-next": "^0.4.6",
+    "vue": "^3.5.39",
+    "vue-i18n": "^11.4.17",
+    "vue-router": "^5.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.7",
+    "unplugin-auto-import": "^21.0.0",
+    "unplugin-vue-components": "^32.1.0",
+    "vite": "^8.1.1",
+    "wrangler": "^4.40.0"
+  }
+}

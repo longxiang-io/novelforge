@@ -1,0 +1,10 @@
+# Copy to .dev.vars and replace both secrets with long random strings (at least 16 characters).
+# Example: node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
+# Do not commit .dev.vars. Do not put these values in wrangler.jsonc.
+JWT_SECRET=please-change-me-to-a-long-random-string
+ENCRYPTION_KEY=please-change-me-to-another-long-random-string
+
+# Open sign-up. Set to false, 0, no, or off to close registration after the first account.
+# An empty database can still register the first account, which becomes admin.
+# When present, this overrides ALLOW_REGISTRATION from wrangler.jsonc for local wrangler dev.
+ALLOW_REGISTRATION=true

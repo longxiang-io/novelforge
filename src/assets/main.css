@@ -1,0 +1,21 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+html, body, #app { height: 100%; }
+body {
+  background: #f6f3ee;
+  color: #23201c;
+  font-family: "Noto Sans CJK SC", "Noto Sans SC", "PingFang SC", "Microsoft YaHei", -apple-system, sans-serif;
+}
+a { color: inherit; }
+
+/* iOS Safari 在输入框字号小于 16px 时聚焦会自动放大页面，触屏设备统一用 16px */
+@media (hover: none) and (pointer: coarse) {
+  input,
+  textarea,
+  select,
+  .el-input__inner,
+  .el-textarea__inner,
+  .el-select__input,
+  .el-input-number .el-input__inner {
+    font-size: 16px !important;
+  }
+}

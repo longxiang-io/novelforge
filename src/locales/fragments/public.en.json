@@ -1,0 +1,530 @@
+{
+  "public": {
+    "landing": {
+      "demo": "Example",
+      "nav": {
+        "page": "Page",
+        "account": "Account",
+        "build": "Start a book",
+        "memory": "Memory",
+        "outline": "Outline and foreshadows",
+        "write": "Write and check",
+        "faq": "FAQ",
+        "guide": "Guide",
+        "shelf": "Open bookshelf",
+        "login": "Log in",
+        "register": "Sign up"
+      },
+      "hero": {
+        "title1": "From one idea",
+        "title2": "to a whole story",
+        "sub": "Talk through a few ideas, and it builds the world and the outline so you can write chapter by chapter. It remembers the characters, the settings, and the foreshadows you planted, so the story still connects no matter how long it gets.",
+        "demoLabel": "Preview of the writing page",
+        "brings": "Brought into this chapter",
+        "world": "World",
+        "worldValue": "The Nine Provinces meridian system",
+        "character": "Character",
+        "shenRole": "Shen Yan · protagonist",
+        "wen": "Wen Zhaoxue",
+        "setting": "Setting",
+        "settingValue": "A meridian can be drawn only once a day",
+        "foreshadow": "Foreshadow",
+        "foreshadowValue": "The inscription inside the scabbard",
+        "summary": "Summary",
+        "summaryValue": "Recap of the last 3 chapters",
+        "stepOutline": "✓ Chapter outline",
+        "stepGenerate": "Generate prose",
+        "stepCheck": "Check",
+        "stepConfirm": "Confirm",
+        "thinking": "Reasoning stays separate · Chapter goal: Shen Yan hides his strength in the sect trial…",
+        "sample": "“下一位，外门沈砚。”裴执事的声音不高，整座擂台却静了下来。沈砚握紧剑鞘走上台，掌心里那道旧伤又开始发烫。",
+        "chapter": "Chapter 58 · The trial",
+        "words": "{count} words",
+        "continue": "Continue",
+        "stop": "Stop"
+      },
+      "s1": {
+        "kicker": "Talk it through, then create the book",
+        "title1": "One idea in your head",
+        "title2": "is enough to start a book",
+        "body": "Before a book exists, talk the genre, the protagonist, and the core conflict through with the AI. That chat is not written into any book. When the plan looks right, one click creates the book from it.",
+        "steps": {
+          "chatTitle": "Just talk",
+          "chatBody": "This chat does not belong to any book.",
+          "planTitle": "Get a plan",
+          "planBody": "Title, world, and overall outline, gathered into one plan.",
+          "createTitle": "Create a book from this plan",
+          "createBody": "Nothing is saved until you click. You can also start by typing a title."
+        },
+        "bar": "Chat before you create the book",
+        "tag": "Not part of any book",
+        "me": "I want a talentless-underdog story, but not the usual cliché. Could his special advantage be something else?",
+        "ai": "Let the “lack of talent” itself be the cost: he can see the cracks in other people’s meridians, but every look drops his own cultivation by one stage…",
+        "fields": {
+          "title": "Title",
+          "titleValue": "Split Meridians",
+          "hero": "Protagonist",
+          "heroValue": "Shen Yan, an outer-sect menial who can see meridian cracks",
+          "conflict": "Core conflict",
+          "conflictValue": "The more he sees, the weaker he gets, and the closer he comes to the sect’s secret"
+        },
+        "apply": "Create a book from this plan",
+        "applied": "✓ Created Split Meridians",
+        "noteIdle": "A click creates the book. Chatting does not write it.",
+        "noteDone": "Demo: the real page opens the new book."
+      },
+      "s2": {
+        "kicker": "Memory",
+        "title1": "Write a setting once.",
+        "title2": "Every chapter remembers it.",
+        "body": "Character cards store who someone is and where they stand now. Setting cards store the rules. A setting marked “Always include” is carried into every chapter. Characters and settings named in the chapter outline, plus the protagonist, are included automatically.",
+        "steps": {
+          "peopleTitle": "Character cards",
+          "peopleBody": "Role, personality, catchphrase, arc, and whether they are alive and present.",
+          "settingTitle": "Setting cards",
+          "settingBody": "Places, factions, items, rules, realms… Turn on “Always include” for the rules that matter.",
+          "carryTitle": "Only what this chapter needs",
+          "carryBody": "Hundreds of chapters are not pasted in. Only what this chapter needs is included."
+        },
+        "bar": "Memory",
+        "hint": "Try the switches",
+        "kindCharacter": "Character",
+        "kindRule": "Rule",
+        "kindFaction": "Faction",
+        "shenName": "Shen Yan",
+        "shenDesc": "Protagonist · a quiet outer-sect menial",
+        "alive": "Alive",
+        "present": "Present",
+        "luName": "Lu Qinghe",
+        "luDesc": "Shen Yan’s senior",
+        "dead": "Dead",
+        "luNote": "Killed in chapter 41",
+        "veinTitle": "A meridian can be drawn only once a day",
+        "veinDesc": "Forcing a second draw damages the foundation.",
+        "pin": "Always include",
+        "sectTitle": "Qinglan Sect",
+        "sectDesc": "Nine peaks stand side by side. Outer disciples may not enter the inner peaks.",
+        "inject": "Included when generating chapter 58:",
+        "injShen": "Shen Yan (protagonist)",
+        "injWen": "Wen Zhaoxue (named in the chapter outline)",
+        "injVein": "A meridian can be drawn only once a day",
+        "injSect": "Qinglan Sect",
+        "injSummary": "Summaries of the last 3 chapters"
+      },
+      "cast": {
+        "shen": "Shen Yan",
+        "wen": "Wen Zhaoxue",
+        "lu": "Lu Qinghe"
+      },
+      "s3": {
+        "kicker": "Outline and foreshadows",
+        "title1": "The setups you plant",
+        "title2": "get a reminder when it is time to pay them off",
+        "body": "Three layers: the overall outline, the volume outline, and the chapter outline. A chapter outline holds the goal, the conflict, the payoff, the end hook, and who is on stage. Foreshadows are marked open, paid off, or abandoned, and ones that are due soon or overdue are flagged.",
+        "steps": {
+          "layersTitle": "Three layers of outline",
+          "layersBody": "The whole book, then each volume, then each chapter.",
+          "dueTitle": "Planned payoff chapter",
+          "dueBody": "It reminds you a few chapters ahead. You choose how many.",
+          "autoTitle": "Included when you write this far",
+          "autoBody": "Open foreshadows linked to this chapter, nearing their payoff, or tied to someone on stage."
+        },
+        "bar": "Foreshadows",
+        "hint": "Drag to see the reminders change",
+        "writing": "Writing",
+        "chapter": "Chapter {n}",
+        "range": "Current chapter",
+        "meta": "Planted in chapter {plant} · payoff planned for chapter {due}",
+        "foot": "Early reminder: 3 chapters · A purple bar means this chapter’s draft includes it",
+        "items": {
+          "scabbard": "The inscription inside the scabbard",
+          "pendant": "The half jade pendant in Wen Zhaoxue’s sleeve",
+          "pavilion": "The ninth floor of the scripture pavilion has no door",
+          "lastWords": "Lu Qinghe’s last words"
+        },
+        "badges": {
+          "open": "Open",
+          "done": "Paid off",
+          "overdue": "Overdue by {n} chapter | Overdue by {n} chapters",
+          "soon": "{n} chapter left | {n} chapters left"
+        }
+      },
+      "s4": {
+        "kicker": "Draft and check",
+        "title1": "Check it before you move on.",
+        "title2": "The dead do not suddenly speak.",
+        "body": "Generate from the chapter outline, or continue onward. The text streams in. If the connection drops, what was already written is saved as a draft. Then run a consistency check against character cards, settings, open foreshadows, and earlier summaries. It looks for a voice that does not match, conflicts with settings, dead or offstage people showing up, and repeated catchphrases, and sorts them into must fix, should fix, and hint.",
+        "steps": {
+          "draftTitle": "Generate or continue",
+          "draftBody": "Reasoning is shown on its own and never mixed into the prose.",
+          "checkTitle": "Consistency check",
+          "checkBody": "If someone dead or already offstage appears again, it is flagged.",
+          "oneTitle": "Take them one by one",
+          "oneBody": "Click an issue and it jumps to the matching paragraph."
+        },
+        "bar": "Chapter 58 · Check results",
+        "hint": "Click an issue on the right",
+        "prose": {
+          "p1": {
+            "before": "The crowd roared under the arena. Shen Yan held his presence down and ",
+            "mark": "drew on his meridian for the second time today",
+            "after": ". His fingertips went numb."
+          },
+          "p2": {
+            "before": "At the edge of the stage, Wen Zhaoxue said quietly, “",
+            "mark": "Don’t push it",
+            "after": ".”"
+          },
+          "p3": {
+            "before": "Before he could answer, ",
+            "mark": "Lu Qinghe",
+            "after": " pushed through the crowd and clapped his shoulder. “Junior brother, I’ll back you up.”"
+          },
+          "p4": "Shen Yan glanced down at the scabbard. The line inside flashed again."
+        },
+        "issues": {
+          "must": {
+            "level": "Must fix",
+            "title": "A dead character appears",
+            "detail": "Lu Qinghe was killed in chapter 41. If this is a memory, mark it as a false positive."
+          },
+          "should": {
+            "level": "Should fix",
+            "title": "Conflicts with a setting",
+            "detail": "“A meridian can be drawn only once a day.” This is the second time today."
+          },
+          "hint": {
+            "level": "Hint",
+            "title": "Catchphrase repeated",
+            "detail": "Wen Zhaoxue’s “Don’t push it” already appears 4 times in this chapter."
+          }
+        }
+      },
+      "s5": {
+        "kicker": "Confirm and look back",
+        "title1": "Only what you accept",
+        "title2": "is written into memory",
+        "body": "When you confirm a chapter, changes to character state, new characters, new settings, and new foreshadows are listed one by one. Only the ones you check are written back, and a summary of the chapter is generated for later. If you confirm the wrong thing, undo it from the latest version.",
+        "steps": {
+          "pickTitle": "Check the changes",
+          "pickBody": "What the AI suggests is only a suggestion. It takes effect after you confirm.",
+          "sumTitle": "Generate a summary",
+          "sumBody": "The next chapter brings the recap along. You do not paste the prose again.",
+          "lookTitle": "Look back over the book",
+          "lookBody": "Read by volume, search inside the book, export, and see usage for every chapter."
+        },
+        "bar": "Confirm chapter 58",
+        "hint": "Click to toggle",
+        "changes": {
+          "state": {
+            "kind": "Character state",
+            "text": "Shen Yan: cultivation drops back to Qi Refining, third layer"
+          },
+          "person": {
+            "kind": "New character",
+            "text": "Steward Pei · judge of the trial"
+          },
+          "setting": {
+            "kind": "New setting",
+            "text": "Sect trial: the loser may not enter the scripture pavilion for three months"
+          },
+          "hook": {
+            "kind": "New foreshadow",
+            "text": "Steward Pei recognizes that sword"
+          }
+        },
+        "willWrite": "{count} items will be written · a chapter summary is generated too",
+        "confirm": "Confirm this chapter",
+        "ver1": "Chapter 57 · confirmed · 2 cards changed",
+        "undo": "Undo this confirmation",
+        "ver2": "Character card · Shen Yan · 1 AI change",
+        "undone": "Undone"
+      },
+      "compare": {
+        "generic": "General chat",
+        "pill": "Why not just use a chat AI",
+        "title1": "A long story in a chat window",
+        "title2": "eventually stalls on these four things",
+        "forget": {
+          "title": "Forgot the setting",
+          "no": "The setting stays in some old chat. Open a new window and it is gone.",
+          "yes": "Pin a setting card and every chapter includes it."
+        },
+        "drift": {
+          "title": "Characters stop matching",
+          "no": "Life, death, and state depend on whether the model still remembers.",
+          "yes": "Character cards store state. After you write, the check flags anyone who is offstage and appears again."
+        },
+        "lost": {
+          "title": "Foreshadows get dropped",
+          "no": "A detail planted early is never mentioned again.",
+          "yes": "Each foreshadow has a payoff plan. Due soon and overdue both raise a reminder."
+        },
+        "full": {
+          "title": "The context runs out",
+          "no": "Hundreds of chapters will not fit, and even if they did, the middle would slip.",
+          "yes": "Only the relevant cards, the foreshadows, and summaries of the last 3 chapters are included."
+        }
+      },
+      "overview": {
+        "pill": "The whole path",
+        "title": "Write a chapter, and the memory comes with it",
+        "sub": "What each step produces is still there for the next chapter.",
+        "flow": {
+          "book": { "title": "Create the book", "text": "Talk through a plan, or just type a title." },
+          "beats": { "title": "Write the chapter outline", "text": "Goal, conflict, payoff, hook, and who is on stage." },
+          "draft": { "title": "Generate prose", "text": "It streams. A dropped connection saves a draft." },
+          "check": { "title": "Consistency check", "text": "Conflicts with earlier text are marked by severity." },
+          "confirm": { "title": "Confirm", "text": "Write it back into memory, generate a summary, and undo if you need to." }
+        },
+        "extras": {
+          "chat": "Chat with the AI beside the outline and the cards. Nothing is written until you apply.",
+          "versions": "Version history",
+          "search": "Search inside the book",
+          "read": "Read by volume",
+          "export": "Export",
+          "stats": "Usage stats",
+          "phone": "Write from a phone browser"
+        }
+      },
+      "notes": {
+        "title": "Before you start",
+        "key": {
+          "title": "Bring your own model key",
+          "body": "OpenRouter, Volcengine Ark, and other OpenAI-compatible services are supported. Your provider bills the cost."
+        },
+        "where": {
+          "title": "You choose where the key lives",
+          "body": "Keep it only in your own browser, or save it encrypted on the server so you can switch devices."
+        },
+        "own": {
+          "title": "A book belongs only to your account",
+          "body": "Nobody else can open your outline, your prose, or your memory."
+        }
+      },
+      "faq": {
+        "title": "Questions",
+        "q1": "How do I sign up?",
+        "a1": "Open the sign-up page and enter an email, a username, and a password. The first account on an empty database is the admin. The server can close registration after that. The steps from sign-up through the first chapter are in the {guide}.",
+        "q2": "Do I need my own key?",
+        "a2": "Yes. In Settings, fill in the provider, the base URL, and the key, then pick models for tasks such as generating and checking. Then you can start writing.",
+        "q3": "Can I keep the key off the server?",
+        "a3": "Yes. Choose “Keep only in this browser”. If you clear site data or switch browsers, you enter it again.",
+        "q4": "Can other people see my book?",
+        "a4": "No. Each account can open only its own books.",
+        "q5": "Can I write on a phone?",
+        "a5": "Yes. Open it in the phone’s browser. While you write, the prose fills the screen, and the outline, character cards, and foreshadows can be edited full screen."
+      },
+      "closing": {
+        "title1": "From chapter 1 to chapter 300,",
+        "title2": "it is still the same world"
+      },
+      "footer": {
+        "copy": "© {year} NovelForge"
+      }
+    },
+    "guide": {
+      "nav": {
+        "account": "Account",
+        "guide": "Guide",
+        "shelf": "Open bookshelf",
+        "login": "Log in",
+        "register": "Sign up"
+      },
+      "tocLabel": "Contents",
+      "toc": {
+        "prepare": "Before you start",
+        "register": "Sign up and log in",
+        "model": "Set up a model",
+        "book": "Create a book",
+        "outline": "Outline and chapter outline",
+        "write": "Write the prose",
+        "check": "Consistency check",
+        "confirm": "Confirm memory",
+        "memory": "Memory",
+        "foreshadow": "Foreshadows",
+        "after": "Stats, export, versions",
+        "phone": "Phone",
+        "trouble": "When something goes wrong"
+      },
+      "title": "Guide",
+      "backHome": "Back to home",
+      "prepare": {
+        "title": "Before you start",
+        "key": "You need an API key from a model provider. OpenRouter, Volcengine Ark, and other OpenAI-compatible APIs are supported. The provider bills you for model use.",
+        "privacy": "Each book belongs only to your account. Other people cannot open your outline, prose, or memory."
+      },
+      "register": {
+        "title": "1. Sign up and log in",
+        "step1": "On the home page, click “Sign up”.",
+        "step2": "Enter an email, a username, and a password. Usernames are 2 to 32 characters and may include Chinese, letters, digits, underscores, and hyphens. Passwords must be at least 8 characters.",
+        "step3": "Click “Sign up”. You land on the bookshelf.",
+        "step4": "Next time, click “Log in” on the home page. Email or username both work, with the same password."
+      },
+      "model": {
+        "title": "2. Set up a model",
+        "lead": "If there is no key, or a task has no model, generating and checking stop and tell you nothing is configured yet. Finish this step before you write chapter 1.",
+        "where": "On a computer, click the gear at the top right of the bookshelf to open Settings. On a phone, open a book first, then tap More at the bottom and Settings. The first item on the left is “Model and keys”.",
+        "provider": "Click “＋ Provider”. For Volcengine Ark, click “＋ Volcengine Ark”. The API base URL is filled in as {ark}. For any other provider, enter the base URL yourself. It usually ends with {v1}. You can add up to 5 providers.",
+        "key": "Enter the key.",
+        "store": "Choose where the key is stored.",
+        "server": "“Save on the server (encrypted)”: it still works after you log in on another computer or phone. Exported books do not include the key.",
+        "browser": "“Keep only in this browser”: the server does not store this key. If you clear site data, switch browsers, or switch devices, you fill it in again. Calls are still relayed through the server to the provider, but the key is not saved.",
+        "test": "Click “Test”. When the base URL and key work, the status becomes Connected. If you also filled in a model id, the test tries that id once more.",
+        "tasksIntro": "On the right, under “Model for each task”, set all five:",
+        "taskGenerate": "Generate prose: for writing chapters. Prefer strong prose at a lower cost.",
+        "taskCheck": "Consistency check: compares the draft with memory and looks for contradictions. Prefer strong reasoning.",
+        "taskExtract": "Extract memory changes: pulls character and setting changes out of the prose. Prefer strong reasoning.",
+        "taskSummary": "Chapter summary: a recap for later chapters. A cheaper model is enough.",
+        "taskChat": "Chat with AI: for the outline, the chapter outline, and characters. If you do not pick one, the “Generate prose” model is used.",
+        "catalog": "Providers such as OpenRouter load a model list when the page opens, so you can search and pick one. Volcengine Ark does not load a list. Copy the Model ID from the {docs} and paste it onto the matching task.",
+        "catalogLink": "Volcengine Ark model list",
+        "save": "Click “Save model settings”."
+      },
+      "book": {
+        "title": "3. Create a book",
+        "chat": "To talk the premise through first, click “Talk through a new book idea”. The model asks about genre, the hook, the protagonist, the world, the special advantage, the core conflict, and the opening. It only suggests. Nothing is saved until you apply it. When the plan looks right, create the book from it. That chat does not belong to any book. It stays on the bookshelf under the title Idea.",
+        "self": "To create it yourself, click “＋ New book”.",
+        "fields": "Enter a title. The default target is 2,500 words per chapter, from 300 to 20,000. The foreshadow reminder defaults to 3 chapters, meaning the warning starts 3 chapters before the planned payoff. Any value from 0 to 50 is allowed.",
+        "create": "Click “Create”. The app places empty templates for the world, the overall outline, and “Volume 1”, and starts version history.",
+        "shelf": "Each book on the bookshelf shows how many chapters are confirmed and the word count. A must-fix issue, or an overdue foreshadow, is marked on the card. “Continue chapter N” returns to the chapter that is not confirmed yet."
+      },
+      "outline": {
+        "title": "4. Write the outline and the chapter outline",
+        "lead": "After you open a book, the top bar is Write, Memory, Foreshadows, Outline, and Stats. Go to Outline first, write what happens in this chapter, then generate the prose.",
+        "open": "Click “Outline” in the top bar.",
+        "tree": "Down the left side: World, Overall outline, Volumes, then each chapter. “＋ Chapter outline” adds a chapter. “＋ Volume” adds a volume.",
+        "layers": "The world is included every time a chapter is generated. The overall outline is the direction of the whole book. A volume has a name, a goal for that volume, and a volume outline. Markdown is supported.",
+        "fillIntro": "Click a chapter and fill in the chapter outline:",
+        "chapterTitle": "Chapter title",
+        "goal": "Goal for this chapter: what this chapter has to accomplish",
+        "conflict": "Conflict: who clashes, and why",
+        "payoff": "Payoff: the moment the reader enjoys most",
+        "hook": "End hook: the question that makes someone want the next chapter",
+        "cast": "Characters on stage: pick from existing character cards, or type a new name. If there is no card, the page offers to create one, or to switch to an existing character with a similar name.",
+        "length": "Length for this chapter: leave it blank to use the book default.",
+        "linked": "Linked foreshadows: these are included when you generate. Foreshadows nearing their payoff are included automatically too.",
+        "ai": "While a section is still the empty template, you can click “Fill with AI” or “Chat with AI”. The model first explains in plain Chinese. A change is written only after you click “Apply”, and it leaves a version you can undo. Ignore means nothing changes.",
+        "generate": "When the chapter outline is ready, click “Generate this chapter” to open the writing page. If the chapter already has prose, the button says “Writing page”.",
+        "rewrite": "Editing the outline or the chapter outline does not rewrite chapters that are already drafted. To change the prose, open the writing page and click “Regenerate”."
+      },
+      "write": {
+        "title": "5. Write the prose",
+        "lead": "The writing page has a step bar: Chapter outline, Generate, Revise, Check, Confirm changes. The current step is highlighted. Finished steps get a check.",
+        "list": "The chapter list is on the left. If there are no chapters yet, click “+ New chapter” at the top left, or write a chapter outline on the Outline page first.",
+        "context": "Before you generate, check the two tabs on the right. “Chapter outline” is this chapter’s goal, conflict, payoff, and hook. “Injected context” is the characters, settings, foreshadows, and earlier summaries sent to the model this time. Fix anything that looks wrong, then generate.",
+        "generate": "Click “Generate prose”. Reasoning is shown above the prose and is not mixed into it. Once words start coming out, the reasoning area collapses to one line: “Done thinking. Writing the prose.”",
+        "continue": "If the draft is still short of this chapter’s target, click “Continue generating”. It writes on from the last sentence and does not repeat what is already there.",
+        "regenerate": "“Regenerate” rewrites the whole chapter. Prose you already edited is replaced.",
+        "stop": "“Stop generating” stops at the current text. What was already written is saved as a draft.",
+        "background": "If you close the page, or the connection drops, this generation keeps going in the background. Open the chapter again and the draft that was written is there.",
+        "manual": "To write it yourself: on an empty chapter click “Write it myself”. If prose already exists, click “Edit prose” or double-click the prose. One paragraph per line, with a line break between paragraphs. Typing saves automatically, and the save state is shown beside it."
+      },
+      "check": {
+        "title": "6. Run a consistency check",
+        "lead": "When the prose is ready, click “Consistency check” at the top right. It looks for real contradictions against memory. It does not judge the writing. It checks whether speech and actions match the character, whether the draft conflicts with existing settings (timeline, realm, place, rules), whether someone who is dead or already offstage appears again, and whether a catchphrase repeats too often. If a dead or offstage person appears in the prose, the rule reports it even when the model does not. A flashback can be marked as a false positive.",
+        "levels": "Issues come in three levels: Must fix, Should fix, and Hint. A marker sits after the matching paragraph. “Show in the text” on the right scrolls to that paragraph.",
+        "card": "For a character issue you can “View character card”.",
+        "falsePositive": "If the judgment is wrong, “Mark as a false positive”. Reasons: written this way on purpose, the check misread the text, the memory is out of date, or other. You can add one line of detail. After you check “Don’t flag this kind of issue again in this chapter”, that chapter will not report the same case.",
+        "changed": "If the prose changes after the check, check again before you confirm. The right side says “The text changed after the check”.",
+        "blocked": "You cannot confirm the chapter while a “Must fix” issue is still open. Change the prose, or mark it as a false positive, then check again."
+      },
+      "confirm": {
+        "title": "7. Confirm memory changes",
+        "lead": "After the check passes, “Confirm memory changes” at the bottom right can be clicked. A line under the button explains a gray button: there is no prose yet, it has not been checked, the prose changed and needs another check, or a must-fix issue is still open.",
+        "extract": "On the confirm page, the app extracts changes from this chapter’s prose. Wait while it extracts. If it fails, retry, or “Skip the model and only record who appears”.",
+        "reviewIntro": "On the left, “Needs your decision” lists the important changes. Handle them one by one:",
+        "alive": "Whether a character is alive, present, and their realm",
+        "fresh": "New characters and new settings",
+        "hooks": "New foreshadows and foreshadows paid off",
+        "reviewTail": "Each item can be accepted, edited, rejected, or left for later. Shortcuts: A accept, E edit, R reject. For a new foreshadow you can edit the text and enter the chapter planned for the payoff.",
+        "auto": "On the right, “Accepted automatically” is ordinary state, such as location, injuries, and items held. Those are accepted by default. Undo one if it looks wrong.",
+        "commit": "When you are done, click confirm. Accepted changes are written into memory. This chapter gets a version you can roll back. Its status becomes confirmed, and the prose is read-only.",
+        "summary": "After confirmation, a summary of this chapter is generated for later chapters. If the summary fails, the confirmation is not undone. If the done page says the summary was not generated, click “Regenerate summary”. You can generate it again from the summary tab in Memory too.",
+        "next": "On the done page, “Write chapter N” goes to the next chapter, or “View the text” comes back to read. Only confirmed chapters can be exported as TXT. Range and whether to merge them are chosen on the done page.",
+        "undo": "If later chapters are not confirmed yet, you can “Undo this chapter’s confirmation”. If a later chapter is already confirmed, you cannot undo this chapter alone. To edit confirmed prose, undo the confirmation first."
+      },
+      "memory": {
+        "title": "8. Memory",
+        "tabs": "Click “Memory” at the top. Three tabs on the left: Characters, Settings, and Summaries. You can search.",
+        "cards": "A character card stores role, appearance, personality, catchphrase, arc, and relationships. Current state includes alive, present, realm, location, injuries, items held, and last seen. Alive, present, and realm are locked: those changes must be accepted by hand when you confirm the chapter.",
+        "settings": "Setting cards are categorized as place, faction, item, rule, timeline, realm, or other. With “Always include” checked, every later chapter generation carries this card. Rules are a good fit for that.",
+        "create": "Click “＋ New character card” or “＋ New setting card”. An empty card can use “Fill with AI” or “Chat with AI”. It is written only after you apply.",
+        "summaries": "Summaries appear after a chapter is confirmed. When a new chapter is generated, summaries of the latest few chapters are included.",
+        "edits": "Editing a card directly here does not leave a version. State changes that happen in the prose should go through the confirmation in step 7. A card the AI changed can be undone in version history."
+      },
+      "foreshadow": {
+        "title": "9. Foreshadows",
+        "add": "New foreshadows you accept while confirming a chapter land in this list. You can also click “＋ Add a foreshadow”.",
+        "fields": "Each row has an id, the text, related characters, the chapter where it was planted, and the chapter planned for the payoff. Status is open, paid off, or abandoned.",
+        "stats": "The top of the page counts overdue and still open, due soon inside the reminder window, open, paid off, and the payoff rate. Filter by status or by character.",
+        "actions": "Under “Actions” you can edit, mark paid off, abandon, set back to open, or delete.",
+        "timing": "If the chapter you are writing has passed the planned payoff chapter, it is overdue. If it has not arrived yet but is inside the early-reminder window, it is due soon. The bookshelf also shows how many are overdue."
+      },
+      "after": {
+        "title": "10. Stats, export, versions, and account",
+        "searchTitle": "Search",
+        "search": "After you open a book, Search sits to the left of the gear on a computer. On a phone it is under More at the bottom. You can search prose, summaries, the outline and chapter outlines, character cards, setting cards, and foreshadows. A result opens the matching chapter, card, or foreshadow. A prose result scrolls to that paragraph.",
+        "readTitle": "Read",
+        "read": "“Read” is in the top navigation. On a phone it is under More. Only confirmed chapters are laid out here, volume by volume. To change a chapter, click “Writing page” beside it.",
+        "statsTitle": "Stats",
+        "stats": "“Stats” at the top totals tokens per chapter, the hand-edit share (how much of the generated draft you changed), and confirmed words. A dark bar means the same chapter was regenerated more than twice. The provider bills you for model use.",
+        "tests": "“Buried-error test set” on the same page shows how many mistakes you hid on purpose the consistency check misses. You can ignore it for ordinary writing. It is more useful after you change how checking is used.",
+        "exportTitle": "Export",
+        "exportZip": "Each book on the bookshelf has “Export the whole book”. It is also under “Book settings” on the in-book settings page. The export is a zip: confirmed chapters are Markdown, and character cards, settings, foreshadows, summaries, and the outline are YAML.",
+        "exportTxt": "The done page after a chapter is confirmed can “Export TXT”. Only confirmed chapters are included, and you can choose the range.",
+        "versionsTitle": "Versions",
+        "versions": "Open it from “Version history” on the left of Settings, or from “Version history” in Memory. Each chapter confirmation, and each outline or card the AI changed, leaves an entry. Open one to see what changed. Undoing a whole entry has to start from the newest version that has not been undone, then move backward. Character cards and setting cards can also “Restore only this card”. After a chapter is confirmed, you cannot undo that chapter alone if a later chapter is already confirmed.",
+        "bookTitle": "Book settings",
+        "book": "After you open a book, the gear at the top right includes “Book settings”. You can change the title, the target length per chapter, and how early foreshadows are reminded. Deleting the book asks you to type the title. Prose, memory, foreshadows, and versions are deleted together.",
+        "profileTitle": "Profile",
+        "profile": "Click the avatar at the top right and choose “Profile”. Pick an avatar from the presets. The default is the first letter of the username. The username can be changed only once. A new password must be at least 8 characters and must differ from the current one. After you save, other devices are logged out. This browser stays logged in."
+      },
+      "phone": {
+        "title": "11. Writing on a phone",
+        "lead": "Open it in the phone’s browser. There is nothing to install.",
+        "top": "At the top, the left side is Back or the bookshelf, the middle is the book title, and More on the right holds the bookshelf, the guide, profile, and log out.",
+        "tabs": "After you open a book, the bottom bar is Write, Outline, Memory, Foreshadows, and More. More holds Search, Read, Stats, Versions, and Settings.",
+        "write": "While you write, the prose fills the screen. “Chapters” at the bottom opens the chapter list. “Generate” or “Continue” is on the right. “Tools” holds the chapter outline, injected context, the consistency check, and edit prose.",
+        "outline": "In Outline, go from World and Overall outline into a volume, then into a chapter’s outline.",
+        "lists": "Memory and Foreshadows are full-page lists. Tap a row to edit. To add a character or a setting, tap “New” at the bottom right."
+      },
+      "trouble": {
+        "title": "If you run into these",
+        "modelTitle": "It says no model is configured",
+        "model": "In Settings, fill in the base URL and the key, pick a model for all five tasks, then click “Save model settings”. Generation checks this before it starts writing.",
+        "localTitle": "You chose this browser only, and another browser cannot generate",
+        "local": "The key is still in the original browser. Enter it again in Settings on the new browser, or switch to “Save on the server (encrypted)”.",
+        "grayTitle": "The confirm button is gray",
+        "gray": "Read the line under the button. Usual reasons: there is no prose yet; the consistency check has not been run; the prose changed after the check and needs to be checked again; a must-fix issue is still open.",
+        "thinkingTitle": "Generation stays on “The model is thinking”",
+        "thinking": "Reasoning is not written into the prose. Wait until the prose starts, or click “Stop generating”. Text already written stays, and you can continue generating.",
+        "staleTitle": "You changed the chapter outline, but the prose is still the old draft",
+        "stale": "Existing prose is not rewritten automatically. On the writing page, click “Regenerate”.",
+        "summaryTitle": "The summary did not appear",
+        "summary": "The confirmation itself is already done. On the done page, or in summaries in Memory, click “Regenerate summary”.",
+        "editTitle": "You want to edit a chapter that is already confirmed",
+        "edit": "If no later chapter is confirmed, undo this chapter’s confirmation on the done page or in version history, then edit."
+      }
+    },
+    "auth": {
+      "leadRegister": "Sign up, then start writing",
+      "leadLogin": "Log in to return to your bookshelf",
+      "email": "Email",
+      "username": "Username",
+      "account": "Email or username",
+      "password": "Password",
+      "hint": "Usernames are 2 to 32 characters. Chinese, letters, digits, underscores, and hyphens are allowed. Passwords need at least 8 characters. The first account to register is the admin.",
+      "pending": "Please wait…",
+      "submitRegister": "Sign up",
+      "submitLogin": "Log in",
+      "goRegister": "No account yet? Sign up",
+      "goLogin": "Already have an account? Log in",
+      "home": "Back to home",
+      "guide": "Guide",
+      "closed": "Registration is closed. If the database is empty, you can still register the first admin.",
+      "failed": "Something went wrong",
+      "network": "Network error. Try again in a moment."
+    }
+  }
+}

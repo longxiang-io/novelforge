@@ -1,0 +1,31 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "novelforge",
+  "main": "worker/index.js",
+  "compatibility_date": "2026-10-01",
+  // AsyncLocalStorage: each request keeps its own database handle and secrets, including while a response streams.
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    // Vue history routes fall back to index.html when a file is missing.
+    "not_found_handling": "single-page-application",
+    // Only API calls enter the Worker. Everything else is a static asset.
+    "run_worker_first": ["/api/*"]
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "novelforge",
+      // Placeholder. Create the database with: npx wrangler d1 create novelforge
+      // Paste the database_id from that command here, then apply migrations.
+      "database_id": "<your-d1-database-id>",
+      "migrations_dir": "migrations"
+    }
+  ],
+  // Not a secret. false, 0, no, or off closes sign-up once any user exists.
+  // An empty database can still register the first account, and that account is an admin.
+  "vars": {
+    "ALLOW_REGISTRATION": "true"
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "brand": "NovelForge",
+  "meta": {
+    "landing": "NovelForge — 长篇写到后面也接得上"
+  },
+  "nav": {
+    "guide": "使用说明",
+    "login": "登录",
+    "register": "注册",
+    "shelf": "书架",
+    "account": "个人资料",
+    "settings": "设置",
+    "write": "写作",
+    "memory": "记忆库",
+    "foreshadows": "伏笔",
+    "outline": "大纲",
+    "stats": "统计",
+    "read": "预览",
+    "search": "搜索",
+    "versions": "版本历史",
+    "backToShelf": "回到书架",
+    "more": "更多",
+    "logout": "退出登录"
+  },
+  "auth": {
+    "sessionExpired": "登录已失效，请重新登录"
+  },
+  "errors": {
+    "goFillKey": "去设置页填写你自己的模型密钥",
+    "goFill": "去设置页填写",
+    "goChangeModel": "去设置换模型",
+    "noLocalKeyTitle": "这台设备没有密钥",
+    "notConfiguredTitle": "还没有配置模型",
+    "gotIt": "知道了",
+    "http": "请求失败（HTTP {status}）",
+    "network": "网络连接失败，请检查网络后重试",
+    "streamInterrupted": "网络中断，已生成的部分会保存为草稿",
+    "failed": "操作失败"
+  },
+  "fields": {
+    "role": "身份",
+    "appearance": "外貌",
+    "personality": "性格",
+    "catchphrase": "口头禅",
+    "arc": "成长弧线",
+    "alive": "存活",
+    "present": "在场",
+    "realm": "境界",
+    "location": "位置",
+    "injury": "伤势",
+    "items": "持有物品",
+    "last_seen": "最后出场",
+    "relation": "关系·{name}"
+  },
+  "tasks": {
+    "generate": "生成",
+    "check": "检查",
+    "extract": "提取改动",
+    "summary": "摘要",
+    "assist": "和 AI 聊",
+    "test": "测试集"
+  },
+  "severity": {
+    "must": "必须改",
+    "should": "建议改",
+    "hint": "仅提示"
+  },
+  "categories": {
+    "place": "地点",
+    "faction": "势力",
+    "item": "物品",
+    "rule": "规则",
+    "timeline": "时间线",
+    "realm": "境界",
+    "other": "其他"
+  }
+}

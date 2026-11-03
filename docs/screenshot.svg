@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+  <rect width="1200" height="720" fill="#f7f1e8"/>
+  <rect x="48" y="40" width="1104" height="640" rx="16" fill="#fffaf4" stroke="#e4d7c8"/>
+  <text x="80" y="110" font-family="Georgia, serif" font-size="42" fill="#9b1c31">NovelForge</text>
+  <text x="80" y="160" font-family="Georgia, serif" font-size="22" fill="#5c5148">Bookshelf screenshot placeholder</text>
+  <text x="80" y="220" font-family="Georgia, serif" font-size="18" fill="#5c5148">Replace docs/screenshot.svg with a screenshot of your local bookshelf.</text>
+  <rect x="80" y="270" width="300" height="180" rx="12" fill="#fbefeb" stroke="#efcfc6"/>
+  <rect x="420" y="270" width="300" height="180" rx="12" fill="#fbefeb" stroke="#efcfc6"/>
+  <rect x="760" y="270" width="300" height="180" rx="12" fill="#fbefeb" stroke="#efcfc6"/>
+</svg>

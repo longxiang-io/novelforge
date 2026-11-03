@@ -1,0 +1,77 @@
+{
+  "brand": "NovelForge",
+  "meta": {
+    "landing": "NovelForge — write a long story that stays consistent"
+  },
+  "nav": {
+    "guide": "Guide",
+    "login": "Log in",
+    "register": "Sign up",
+    "shelf": "Bookshelf",
+    "account": "Profile",
+    "settings": "Settings",
+    "write": "Write",
+    "memory": "Memory",
+    "foreshadows": "Foreshadows",
+    "outline": "Outline",
+    "stats": "Stats",
+    "read": "Read",
+    "search": "Search",
+    "versions": "Version history",
+    "backToShelf": "Back to the bookshelf",
+    "more": "More",
+    "logout": "Log out"
+  },
+  "auth": {
+    "sessionExpired": "Your session expired. Please log in again."
+  },
+  "errors": {
+    "goFillKey": "Add your own model key in Settings",
+    "goFill": "Open Settings",
+    "goChangeModel": "Change the model in Settings",
+    "noLocalKeyTitle": "This device has no key",
+    "notConfiguredTitle": "No model configured yet",
+    "gotIt": "OK",
+    "http": "Request failed (HTTP {status})",
+    "network": "Network error. Check your connection and try again.",
+    "streamInterrupted": "The connection dropped. Text already generated is saved as a draft.",
+    "failed": "Something went wrong"
+  },
+  "fields": {
+    "role": "Role",
+    "appearance": "Appearance",
+    "personality": "Personality",
+    "catchphrase": "Catchphrase",
+    "arc": "Arc",
+    "alive": "Alive",
+    "present": "Present",
+    "realm": "Realm",
+    "location": "Location",
+    "injury": "Injury",
+    "items": "Items",
+    "last_seen": "Last seen",
+    "relation": "Relation · {name}"
+  },
+  "tasks": {
+    "generate": "Generate",
+    "check": "Check",
+    "extract": "Extract changes",
+    "summary": "Summary",
+    "assist": "Chat",
+    "test": "Test set"
+  },
+  "severity": {
+    "must": "Must fix",
+    "should": "Should fix",
+    "hint": "Hint"
+  },
+  "categories": {
+    "place": "Place",
+    "faction": "Faction",
+    "item": "Item",
+    "rule": "Rule",
+    "timeline": "Timeline",
+    "realm": "Realm",
+    "other": "Other"
+  }
+}
