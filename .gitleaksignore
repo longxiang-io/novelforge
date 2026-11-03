@@ -1,0 +1,4 @@
+a3955e6d5105768edb609c38364a207a1751a7be:test/crypto.test.js:generic-api-key:5
+a3955e6d5105768edb609c38364a207a1751a7be:worker/lib/random.js:generic-api-key:20
+test/crypto.test.js:generic-api-key:5
+worker/lib/random.js:generic-api-key:20
